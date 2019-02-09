@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'yard', '~> 0.9.11'
   s.add_runtime_dependency 'hashie', ['>= 2.0', '< 4.0']
   s.add_runtime_dependency 'faraday', '~> 0.14.0'
-  s.add_runtime_dependency 'faraday_middleware', '>= 0.10'
+  s.add_runtime_dependency 'faraday_middleware', '>= 0.13'
 
   s.author = 'FullContact, Inc.'
   s.description = %q{A Ruby wrapper for the FullContact API}
